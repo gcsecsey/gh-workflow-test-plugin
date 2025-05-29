@@ -9,4 +9,3 @@ jobs:
   Publish-Website:
     name: Publish-Website
     runs-on: ubuntu-latest
-    steps:
