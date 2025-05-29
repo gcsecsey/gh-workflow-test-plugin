@@ -10,7 +10,7 @@ Author URI: http://gcsecsey.dev
 add_action(
     'wp_head', function () {
 	    echo '<div style="background: #efe; color: #060; padding: 10px; font-weight: bold;">';
-	    echo 'The test plugin was deployed from the main branch';
+	    echo 'The test plugin was deployed from the develop branch';
 	    echo '</div>';
     }
 );
