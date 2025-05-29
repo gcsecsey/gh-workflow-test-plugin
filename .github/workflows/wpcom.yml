@@ -3,7 +3,7 @@ name: Publish Website
 on:
   push:
     branches:
-      - main
+      - without-upload
   workflow_dispatch:
 jobs:
   Publish-Website:
