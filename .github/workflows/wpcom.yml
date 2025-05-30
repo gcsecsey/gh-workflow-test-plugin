@@ -15,6 +15,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: wpcom
-          path: |
-            .
-            !.git*
+          path: non-existent-directory
