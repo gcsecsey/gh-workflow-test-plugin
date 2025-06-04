@@ -17,4 +17,5 @@ jobs:
           name: wpcom
           path: |
             .
-            !.git
+            !.git*
+          retention-days: 1
